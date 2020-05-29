@@ -7,9 +7,9 @@ end
   # Return a new array of the results
   
 
-def summon_captain_planet(small_calls)
-  small_calls.map { |string| string.upcase}
-  small_calls = small_calls.each_index { |x| print x, "!"}
+def summon_captain_planet(planeteer_calls)
+  planeteer_calls.map { |string| string.upcase}
+  planeteer_calls = planeteer_calls.each_index { |x| print x, "!"}
 end
 
 
