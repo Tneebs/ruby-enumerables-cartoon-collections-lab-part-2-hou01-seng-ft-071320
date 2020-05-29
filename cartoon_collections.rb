@@ -8,7 +8,8 @@ end
   
 
 def summon_captain_planet(planeteer_calls)
-  planateer_calls.each_index { |string| string.upcase print planateer_calls "!"}
+  planateer_calls.each_index { |string| string.upcase}
+  planateer_calls =
 end
 
 
