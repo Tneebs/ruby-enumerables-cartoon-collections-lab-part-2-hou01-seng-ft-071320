@@ -9,7 +9,7 @@ end
 
 def summon_captain_planet(planeteer_calls)
   planateer_calls.map { |string| string.upcase}
-  planateer_calls = planateer_calls.each_index { |x| 
+  planateer_calls = planateer_calls.each_index { |x| print x, 
 end
 
 
